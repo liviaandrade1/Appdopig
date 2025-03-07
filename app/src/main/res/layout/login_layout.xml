@@ -18,34 +18,45 @@
         android:src="@drawable/bigpinkpig" />
 
     <EditText
+        android:id="@+id/edtLoginEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/baseline_email"
         android:hint="Insira seu e-mail"
         android:inputType="textEmailAddress"
         android:maxLength="50"
         android:paddingLeft="10sp"
+        android:paddingRight="15sp"
         android:textSize="20sp" />
 
     <EditText
+        android:id="@+id/edtLoginSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30sp"
+        android:drawableEnd="@drawable/baseline_lock_open"
         android:hint="Insira a senha"
         android:inputType="textPassword"
         android:maxLength="15"
         android:paddingLeft="10sp"
+        android:paddingRight="15sp"
         android:textSize="20sp" />
 
     <Button
-
+        android:id="@+id/btnEntrar"
+        android:padding="15sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:text="Entrar" />
+        android:text="Entrar"
+        android:textSize="20sp" />
 
     <Button
+        android:id="@+id/btnSair"
+        android:padding="15sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Sair" />
+        android:text="Sair"
+        android:textSize="20sp" />
 </LinearLayout>
